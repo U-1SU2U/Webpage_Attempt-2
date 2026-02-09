@@ -1,8 +1,13 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://Adrede.eu/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'PlusRED'
 theme = 'blowfish'
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.link]
+        useEmbedded = 'auto'

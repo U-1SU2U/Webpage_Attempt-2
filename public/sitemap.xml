@@ -3,15 +3,70 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2026-01-11T00:26:21+01:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2026-01-31T07:07:07+01:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-11T00:26:21+01:00</lastmod>
+    <loc>http://localhost:1313/posts/contributing/web_contributing/</loc>
+    <lastmod>2026-01-30T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/wiki/gov/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/wiki/divulg/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/wiki/ngos/fundacionria/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/wiki/research/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/wiki/research/usc-histagra/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/wiki/ngos/labbarbanza/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/wiki/ngos/montescola/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/wiki/ngos/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/wiki/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/contacto/</loc>
+    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/contributing/</loc>
+    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/contributing/indice/</loc>
+    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-01-11T00:26:21+01:00</lastmod>
+    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/readme/</loc>
   </url>
 </urlset>
