@@ -1,0 +1,14 @@
+# Hugo build artifacts
+/public/
+/resources/_gen/
+
+# Hugo binary
+hugo_extended_*.tar.gz
+/tmp/hugo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hugo lock file
+.hugo_build.lock
