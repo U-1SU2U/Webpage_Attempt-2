@@ -1,0 +1,109 @@
+/* Green-Red scheme - Light and Dark modes */
+:root {
+  /* Neutral (light theme - standard gray scale) */
+  --color-neutral-50: 249,250,249;
+  --color-neutral-100: 240,242,240;
+  --color-neutral-200: 217,221,217;
+  --color-neutral-300: 191,195,191;
+  --color-neutral-400: 158,165,158;
+  --color-neutral-500: 125,135,125;
+  --color-neutral-600: 98,104,98;
+  --color-neutral-700: 75,79,75;
+  --color-neutral-800: 52,56,52;
+  --color-neutral-900: 30,31,30;
+
+  /* Primary - Greens (light theme) */
+  --color-primary-50: 236,249,241;
+  --color-primary-100: 212,242,225;
+  --color-primary-200: 169,229,195;
+  --color-primary-300: 125,217,166;
+  --color-primary-400: 85,205,141;
+  --color-primary-500: 44,192,115;
+  --color-primary-600: 38,168,101;
+  --color-primary-700: 30,131,79;
+  --color-primary-800: 23,95,61;
+  --color-primary-900: 17,61,43;
+
+  /* Secondary - Reds (light theme) */
+  --color-secondary-50: 253,238,239;
+  --color-secondary-100: 249,221,225;
+  --color-secondary-200: 243,187,195;
+  --color-secondary-300: 235,154,165;
+  --color-secondary-400: 227,122,136;
+  --color-secondary-500: 219,89,108;
+  --color-secondary-600: 200,79,97;
+  --color-secondary-700: 166,63,80;
+  --color-secondary-800: 131,47,63;
+  --color-secondary-900: 90,31,46;
+
+  --brand: var(--color-primary-500);
+  --brand-700: var(--color-primary-700);
+  --accent: var(--color-secondary-500);
+}
+
+[data-theme="dark"] {
+  /* Neutral (in dark, flip weights so 900 becomes background-like) */
+  --color-neutral-50: 30,31,30;
+  --color-neutral-100: 52,56,52;
+  --color-neutral-200: 75,79,75;
+  --color-neutral-300: 98,104,98;
+  --color-neutral-400: 125,135,125;
+  --color-neutral-500: 158,165,158;
+  --color-neutral-600: 191,195,191;
+  --color-neutral-700: 217,221,217;
+  --color-neutral-800: 240,242,240;
+  --color-neutral-900: 249,250,249;
+
+  /* Primary - Greens (darker emphasis for dark theme) */
+  --color-primary-50: 17,61,43;
+  --color-primary-100: 23,95,61;
+  --color-primary-200: 30,131,79;
+  --color-primary-300: 38,168,101;
+  --color-primary-400: 44,192,115;
+  --color-primary-500: 85,205,141;
+  --color-primary-600: 125,217,166;
+  --color-primary-700: 169,229,195;
+  --color-primary-800: 212,242,225;
+  --color-primary-900: 236,249,241;
+
+  /* Secondary - Reds (darker emphasis) */
+  --color-secondary-50: 90,31,46;
+  --color-secondary-100: 131,47,63;
+  --color-secondary-200: 166,63,80;
+  --color-secondary-300: 200,79,97;
+  --color-secondary-400: 219,89,108;
+  --color-secondary-500: 227,122,136;
+  --color-secondary-600: 235,154,165;
+  --color-secondary-700: 243,187,195;
+  --color-secondary-800: 249,221,225;
+  --color-secondary-900: 253,238,239;
+
+  --brand: var(--color-primary-400);
+  --brand-700: var(--color-primary-700);
+  --accent: var(--color-secondary-400);
+}
+
+/* Convenience utilities: use e.g. rgb(var(--color-primary-500) / 1) or with alpha */
+.btn-primary {
+  background-color: rgb(var(--color-primary-500) / 1);
+  color: rgb(var(--color-neutral-900) / 1);
+}
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: rgb(var(--color-primary-600) / 1);
+}
+
+/* Links / accents */
+a {
+  color: rgb(var(--color-primary-600) / 1);
+}
+a:hover {
+  color: rgb(var(--color-primary-700) / 1);
+}
+
+/* Alerts example */
+.alert--danger {
+  background: rgb(var(--color-secondary-50) / 1);
+  border: 1px solid rgb(var(--color-secondary-300) / 1);
+  color: rgb(var(--color-secondary-700) / 1);
+}
